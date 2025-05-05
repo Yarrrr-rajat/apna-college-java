@@ -29,3 +29,33 @@
 //         }
 //     }
 // }
+
+//Find the maximum & minimum number in an array of integers. 
+
+// import java.util.*;
+// public class array{
+//     public static void main(String args[]){
+//         Scanner sc=new Scanner(System.in);
+//         int size=sc.nextInt();
+//         int number[]=new int[size];
+
+//         for(int i=0;i<number.length;i++){
+//             number[i]=sc.nextInt();
+//         }
+
+//         int max=number[0];
+//         int min=number[0];
+
+//         for(int i=0;i<number.length;i++){
+//             if(number[i]>max){
+//                 max=number[i];
+//             }
+//             if(number[i]<min){
+//                 min=number[i];
+//             }
+//         }
+        
+//         System.out.println("Maximum number is "+max);
+//         System.out.println("Minimum number is "+min);
+//     }
+// }
